@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "sass": "sass -w sass public/css",
-    "sass-build": "sass -w sass:public-build/css -s compressed"
+    "sass": "sass --watch sass:public/css",
+    "sass-build": "sass --watch sass:public-build/css --style compressed"
   },
   "author": "",
   "license": "ISC",
