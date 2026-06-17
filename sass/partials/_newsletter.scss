@@ -1,0 +1,28 @@
+/* Newsletter */
+.newsletter-wrapper {
+  background-color: #f2f5ff;
+  text-align: center;
+}
+
+/* Form */
+form {
+  margin-top: 50px;
+}
+
+input[type="email"] {
+  height: 63px;
+  border: 1px solid #054c73;
+  float: left;
+  // parte / total (container) x 100
+  // 323 / 500 / x 100
+  width: 65%;
+  padding-left: 10px;
+}
+
+input[type="submit"] {
+  // 154 / 500 / x 100
+  width: 31%;
+  float: left;
+  border: none;
+  text-transform: capitalize;
+}

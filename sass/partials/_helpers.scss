@@ -1,11 +1,11 @@
 /* Helper */
 .container {
-  width: $container-big;
+  max-width: $container-big;
   margin: 0 auto;
 }
 
 .container-small {
-  width: $container-small;
+  max-width: $container-small;
   margin: 0 auto;
 }
 

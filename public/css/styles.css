@@ -373,12 +373,12 @@ p.small {
 
 /* Helper */
 .container {
-  width: 1200px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
 .container-small {
-  width: 500px;
+  max-width: 500px;
   margin: 0 auto;
 }
 
@@ -480,9 +480,13 @@ p.small {
 .inspiration-gallery {
   text-align: center;
 }
+.inspiration-gallery img {
+  float: left;
+  width: 32%;
+}
 
 .inspiration-gallery img + img {
-  margin-left: 41px;
+  margin-left: 2%;
 }
 
 /* More Information */
@@ -491,18 +495,21 @@ p.small {
 }
 
 .more-info-content {
-  width: 540px;
+  width: 45%;
   float: left;
   margin-top: 265px;
-  margin-right: 60px;
+  margin-right: 5%;
 }
 .more-info-content p {
   margin-bottom: 35px;
 }
 
 .more-info-image {
-  width: 600px;
+  width: 50%;
   float: left;
+}
+.more-info-image img {
+  width: 100%;
 }
 
 /* section-content (Range / Works)  */
@@ -518,13 +525,16 @@ p.small {
 .section-content-gallery {
   text-align: center;
 }
+.section-content-gallery img {
+  width: 100%;
+}
 
-.section-content-gallery img + img {
-  margin-left: 20px;
+.section-content-gallery div + div {
+  margin-left: 1.5%;
 }
 
 .section-content-gallery > div {
-  width: 33.33%;
+  width: 32.33%;
   float: left;
 }
 
@@ -547,12 +557,12 @@ input[type=email] {
   height: 63px;
   border: 1px solid #054c73;
   float: left;
-  width: 323px;
+  width: 65%;
   padding-left: 10px;
 }
 
 input[type=submit] {
-  width: 154px;
+  width: 31%;
   float: left;
   border: none;
   text-transform: capitalize;
@@ -574,18 +584,22 @@ input[type=submit] {
 }
 
 .footer-left {
-  width: 400px;
+  width: 33.33%;
   float: left;
 }
 
 .footer-right {
-  width: 780px;
+  width: 65%;
   float: left;
-  margin-left: 20px;
+  margin-left: 1.6%;
 }
 
+.footer-right img {
+  width: 23.8%;
+  float: left;
+}
 .footer-right img + img {
-  margin-left: 20px;
+  margin-left: 1.6%;
 }
 
 /*# sourceMappingURL=styles.css.map */

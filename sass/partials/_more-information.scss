@@ -1,0 +1,28 @@
+/* More Information */
+.more-info {
+  padding: 60px 0;
+}
+
+.more-info-content {
+  // parte / total (container) x 100
+  // 540 / 1200 (container) x 100
+
+  width: 45%;
+  float: left;
+  margin-top: 265px;
+  margin-right: 5%;
+
+  p {
+    margin-bottom: 35px;
+  }
+}
+
+.more-info-image {
+  // parte / total (container) x 100
+  // 600 / 1200 (container) x 100
+  width: 50%;
+  float: left;
+  img {
+    width: 100%;
+  }
+}

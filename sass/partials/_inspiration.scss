@@ -1,0 +1,23 @@
+/* Inspiration */
+#inspiration-header {
+  text-align: center;
+  margin-bottom: 88px;
+}
+
+.inspiration-gallery {
+  text-align: center;
+  img {
+    float: left;
+    width: 32%;
+  }
+}
+
+// Sacar esa parte cuando es porcentaje
+// parte / total (container) x 100
+// 41 / 1200 x 100 = 3.4167%
+
+// 100 - 4 = 96
+// 96 / 3 =  32
+.inspiration-gallery img + img {
+  margin-left: 2%;
+}
