@@ -439,6 +439,10 @@ p.small {
   left: 0;
 }
 
+#menu-link {
+  display: none;
+}
+
 /* New collection */
 #new-collection img {
   width: 100%;
@@ -600,6 +604,24 @@ input[type=submit] {
 }
 .footer-right img + img {
   margin-left: 1.6%;
+}
+
+@media only screen and (max-width: 1023px) {
+  body {
+    border-top: 10px solid tomato;
+  }
+  #nav {
+    display: none;
+  }
+  #menu-link {
+    display: block;
+    float: right;
+  }
+}
+@media only screen and (max-width: 767px) {
+  body {
+    border-top: 10px solid black;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
