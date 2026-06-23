@@ -11,4 +11,29 @@
     display: block;
     float: right;
   }
+
+  // Features
+  .feature-item {
+    width: 40%;
+    margin: 0 30%;
+  }
+
+  .feature-item-img {
+    width: 25%;
+    img {
+      max-width: 70px;
+      width: 100%;
+    }
+  }
+  .feature-item-content {
+    width: 70%;
+  }
+
+  .feature-item-content {
+    margin-left: 5%;
+  }
+
+  .feature-item + .feature-item {
+    margin-top: 20px;
+  }
 }

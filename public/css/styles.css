@@ -617,6 +617,26 @@ input[type=submit] {
     display: block;
     float: right;
   }
+  .feature-item {
+    width: 40%;
+    margin: 0 30%;
+  }
+  .feature-item-img {
+    width: 25%;
+  }
+  .feature-item-img img {
+    max-width: 70px;
+    width: 100%;
+  }
+  .feature-item-content {
+    width: 70%;
+  }
+  .feature-item-content {
+    margin-left: 5%;
+  }
+  .feature-item + .feature-item {
+    margin-top: 20px;
+  }
 }
 @media only screen and (max-width: 767px) {
   body {
