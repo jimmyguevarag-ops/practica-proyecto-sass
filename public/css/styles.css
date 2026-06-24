@@ -667,6 +667,30 @@ input[type=submit] {
   .section-content-header {
     margin-bottom: 44px;
   }
+  .footer-left {
+    width: 100%;
+    float: none;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  .footer-right {
+    width: 100%;
+    margin-left: 0%;
+    float: none;
+  }
+  .footer-right img {
+    width: 49%;
+    margin-bottom: 2%;
+  }
+  .footer-right img + img {
+    margin-left: 0%;
+  }
+  .footer-right img:first-child {
+    margin-right: 2%;
+  }
+  .footer-right img:last-child {
+    margin-left: 2%;
+  }
 }
 @media only screen and (max-width: 767px) {
   body {
