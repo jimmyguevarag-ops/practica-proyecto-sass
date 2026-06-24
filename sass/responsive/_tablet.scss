@@ -66,4 +66,21 @@
     float: none;
     margin: 0 auto;
   }
+
+  // Section content
+  .section-content-gallery div + div {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+
+  .section-content-gallery > div {
+    width: 50%;
+    float: none;
+    margin-left: auto !important;
+    margin-right: auto;
+  }
+
+  .section-content-header {
+    margin-bottom: 44px;
+  }
 }
