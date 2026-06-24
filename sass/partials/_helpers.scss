@@ -2,11 +2,13 @@
 .container {
   max-width: $container-big;
   margin: 0 auto;
+  padding: 0 15px;
 }
 
 .container-small {
   max-width: $container-small;
   margin: 0 auto;
+  padding: 0 15px;
 }
 
 .clearfix::after {

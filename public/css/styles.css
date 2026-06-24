@@ -375,11 +375,13 @@ p.small {
 .container {
   max-width: 1200px;
   margin: 0 auto;
+  padding: 0 15px;
 }
 
 .container-small {
   max-width: 500px;
   margin: 0 auto;
+  padding: 0 15px;
 }
 
 .clearfix::after {
@@ -695,6 +697,35 @@ input[type=submit] {
 @media only screen and (max-width: 767px) {
   body {
     border-top: 10px solid black;
+  }
+  #inspiration-header {
+    margin-bottom: 20px;
+  }
+  .feature-item {
+    width: 80%;
+    margin: 0 10%;
+  }
+  .inspiration-gallery img {
+    width: 100%;
+    margin: 0 !important;
+  }
+  .more-info-image {
+    width: 100%;
+  }
+  .section-content-gallery > div {
+    width: 100%;
+    float: none;
+    margin-left: auto !important;
+    margin-right: auto;
+  }
+  .footer-right img {
+    width: 100%;
+  }
+  .footer-right img:first-child {
+    margin-right: 0;
+  }
+  .footer-right img:last-child {
+    margin-left: 0;
   }
 }
 

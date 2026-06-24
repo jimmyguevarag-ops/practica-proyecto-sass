@@ -2,4 +2,49 @@
   body {
     border-top: 10px solid black;
   }
+
+  #inspiration-header {
+    margin-bottom: 20px;
+  }
+
+  // Features
+  .feature-item {
+    width: 80%;
+    margin: 0 10%;
+  }
+
+  // Inspiration gallery
+  .inspiration-gallery {
+    img {
+      width: 100%;
+      margin: 0 !important;
+    }
+  }
+
+  // More information
+  .more-info-image {
+    width: 100%;
+  }
+
+  // Section content
+  .section-content-gallery > div {
+    width: 100%;
+    float: none;
+    margin-left: auto !important;
+    margin-right: auto;
+  }
+
+  // Footer
+  .footer-right {
+    img {
+      width: 100%;
+
+      &:first-child {
+        margin-right: 0;
+      }
+      &:last-child {
+        margin-left: 0;
+      }
+    }
+  }
 }
