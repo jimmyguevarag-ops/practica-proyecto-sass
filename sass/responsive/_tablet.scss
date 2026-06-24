@@ -36,4 +36,34 @@
   .feature-item + .feature-item {
     margin-top: 20px;
   }
+
+  // Inspiration
+  .inspiration-gallery img + img {
+    margin-left: 0;
+  }
+
+  .inspiration-gallery {
+    img {
+      width: 50%;
+      margin: 0 25% !important;
+    }
+  }
+
+  // More informacion
+  .more-info-content {
+    width: 100%;
+    // margin-right: 0%;
+    // margin-top: 0px;
+    // margin-bottom: 40px;
+
+    margin: 0 0 40px;
+
+    text-align: center;
+  }
+
+  .more-info-image {
+    width: 50%;
+    float: none;
+    margin: 0 auto;
+  }
 }
