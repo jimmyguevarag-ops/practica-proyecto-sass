@@ -337,13 +337,22 @@ template {
   display: none;
 }
 
+.padre-tipografia {
+  font-size: 1.25em;
+}
+
+h6 {
+  font-size: 1.6em;
+}
+
 /* Estilos Generales / Globales */
 body {
   font-family: "Montserrat", sans-serif;
+  font-size: 16px;
 }
 
 h2 {
-  font-size: 32px;
+  font-size: calc(2 / 1px)em;
   color: #333333;
   /* reset */
   margin: 0;
@@ -351,7 +360,7 @@ h2 {
 }
 
 h3 {
-  font-size: 24px;
+  font-size: 1.5em;
   font-weight: 500;
   color: #333333;
   /* reset */
@@ -359,7 +368,7 @@ h3 {
 }
 
 p {
-  font-size: 20px;
+  font-size: 1.25em;
   color: #666666;
   line-height: 39px;
   /* reset */
@@ -367,7 +376,7 @@ p {
 }
 
 p.small {
-  font-size: 16px;
+  font-size: 1em;
   color: #333333;
 }
 
@@ -391,7 +400,7 @@ p.small {
 }
 
 .btn {
-  font-size: 16px;
+  font-size: 1em;
   text-transform: uppercase;
   font-weight: 500;
   color: white;
@@ -424,7 +433,7 @@ p.small {
 }
 
 #nav a {
-  font-size: 14px;
+  font-size: 0.87em;
   font-weight: 400;
   color: #333333;
   text-decoration: none;
@@ -611,6 +620,7 @@ input[type=submit] {
 @media only screen and (max-width: 1023px) {
   body {
     border-top: 10px solid tomato;
+    font-size: 19px;
   }
   #nav {
     display: none;
@@ -697,6 +707,7 @@ input[type=submit] {
 @media only screen and (max-width: 767px) {
   body {
     border-top: 10px solid black;
+    font-size: 21px;
   }
   #inspiration-header {
     margin-bottom: 20px;

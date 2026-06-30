@@ -1,6 +1,7 @@
 @media only screen and (max-width: $tablet-breakpoint) {
   body {
     border-top: 10px solid tomato;
+    font-size: $sizeDefault + 3;
   }
 
   // Header

@@ -2,12 +2,30 @@
 
 @import "lib/reset";
 
+// Formula
+// em = px / 16
+// em = px / (padre)
+
+.padre-tipografia {
+  // 20px
+  // 20 / 16
+  font-size: 1.25em;
+}
+
+h6 {
+  // Formula
+  // valor / padre
+  // 32 / 20 = 2em
+  font-size: 1.6em;
+}
+
 @import "partials/tag-general";
 @import "partials/helpers";
 @import "partials/header";
 @import "partials/new-collection";
 @import "partials/features";
 @import "partials/inspiration";
+
 @import "partials/more-information";
 @import "partials/section-content";
 @import "partials/newsletter";
