@@ -1,19 +1,23 @@
 /* Estilos Generales / Globales */
+html {
+  font-size: $sizeDefault + 2;
+}
+
 body {
   font-family: $font;
   font-size: $sizeDefault;
 }
 
 @function font-size($size, $fzparent) {
-  @return ($size/$fzparent) + em;
+  @return ($size/$fzparent) + rem;
 }
 
 h2 {
   // em = valor / padre;
   // 32 / 16 = 2em
 
-  // font-size: 2em;
-  font-size: font-size(32, $sizeDefault);
+  font-size: 2rem;
+  // font-size: font-size(32, $sizeDefault);
   color: $color-primary;
   /* reset */
   margin: 0;
@@ -22,7 +26,7 @@ h2 {
 }
 
 h3 {
-  font-size: 1.5em;
+  font-size: 1.5rem;
   font-weight: 500;
   color: $color-primary;
   /* reset */
@@ -31,7 +35,7 @@ h3 {
 
 p {
   // 20 / 16
-  font-size: 1.25em;
+  font-size: 1.25rem;
   color: #666666;
   line-height: 39px;
   /* reset */
@@ -39,6 +43,6 @@ p {
 }
 
 p.small {
-  font-size: 1em;
+  font-size: 1rem;
   color: $color-primary;
 }

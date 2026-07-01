@@ -33,7 +33,7 @@ main {
  * `article` contexts in Chrome, Firefox, and Safari.
  */
 h1 {
-  font-size: 2em;
+  font-size: 2rem;
   margin: 0.67em 0;
 }
 
@@ -59,7 +59,7 @@ hr {
 pre {
   font-family: monospace, monospace;
   /* 1 */
-  font-size: 1em;
+  font-size: 1rem;
   /* 2 */
 }
 
@@ -102,7 +102,7 @@ kbd,
 samp {
   font-family: monospace, monospace;
   /* 1 */
-  font-size: 1em;
+  font-size: 1rem;
   /* 2 */
 }
 
@@ -126,11 +126,11 @@ sup {
 }
 
 sub {
-  bottom: -0.25em;
+  bottom: -0.25rem;
 }
 
 sup {
-  top: -0.5em;
+  top: -0.5rem;
 }
 
 /* Embedded content
@@ -218,7 +218,7 @@ button:-moz-focusring,
  * Correct the padding in Firefox.
  */
 fieldset {
-  padding: 0.35em 0.75em 0.625em;
+  padding: 0.35em 0.75em 0.625rem;
 }
 
 /**
@@ -318,7 +318,7 @@ details {
  * Add the correct display in all browsers.
  */
 summary {
-  display: list-item;
+  display: list-itrem;
 }
 
 /* Misc
@@ -338,21 +338,25 @@ template {
 }
 
 .padre-tipografia {
-  font-size: 1.25em;
+  font-size: 1.25rem;
 }
 
 h6 {
-  font-size: 1.6em;
+  font-size: 1.6rem;
 }
 
 /* Estilos Generales / Globales */
+html {
+  font-size: 18px;
+}
+
 body {
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
 }
 
 h2 {
-  font-size: calc(2 / 1px)em;
+  font-size: 2rem;
   color: #333333;
   /* reset */
   margin: 0;
@@ -360,7 +364,7 @@ h2 {
 }
 
 h3 {
-  font-size: 1.5em;
+  font-size: 1.5rem;
   font-weight: 500;
   color: #333333;
   /* reset */
@@ -368,7 +372,7 @@ h3 {
 }
 
 p {
-  font-size: 1.25em;
+  font-size: 1.25rem;
   color: #666666;
   line-height: 39px;
   /* reset */
@@ -376,7 +380,7 @@ p {
 }
 
 p.small {
-  font-size: 1em;
+  font-size: 1rem;
   color: #333333;
 }
 
@@ -400,7 +404,7 @@ p.small {
 }
 
 .btn {
-  font-size: 1em;
+  font-size: 1rem;
   text-transform: uppercase;
   font-weight: 500;
   color: white;
@@ -433,7 +437,7 @@ p.small {
 }
 
 #nav a {
-  font-size: 0.87em;
+  font-size: 0.87rem;
   font-weight: 400;
   color: #333333;
   text-decoration: none;
